@@ -1,0 +1,6 @@
+Flask
+gunicorn
+xhtml2pdf
+itsdangerous
+reportlab
+schedule
