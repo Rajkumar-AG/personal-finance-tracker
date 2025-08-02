@@ -353,7 +353,5 @@ def reset_password(token):
 # ----- MAIN -----
 if __name__ == '__main__':
     init_db()
-    import os
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    # DO NOT run app here — Render uses gunicorn
 
